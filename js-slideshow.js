@@ -48,12 +48,12 @@
         // add arrow
         if (settings.numOfSlide < numOfImage) {
             var arrowLeft = $(document.createElement('div')).addClass('arrow-left');
-            arrowLeft.css('bottom',width / settings.numOfSlide - 55);
+            arrowLeft.css('bottom',width / settings.numOfSlide / 1.8);
             arrowLeft.appendTo(showBox);
             
 
             var arrowRight = $(document.createElement('div')).addClass('arrow-right');
-            arrowRight.css('bottom',width / settings.numOfSlide - 55);
+            arrowRight.css('bottom',width / settings.numOfSlide / 1.8);
             arrowRight.appendTo(showBox);
 
             arrowLeft.click(function(){
