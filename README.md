@@ -35,7 +35,6 @@ var image = [
 ```
 <script>
 $('.js-slideshow').slideshow({
-  msg: '234',
   images: image
 });
 </script>
