@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>js</title>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="js-slideshow.css">
+    <script src="js-slideshow.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row" style="margin:20px;">
+            <div class="js-slideshow"></div>
+            <script>
+            var image = [
+                'img/1.png',
+                'img/2.png',
+                'img/3.png',
+                'img/4.png',
+                'img/5.png',
+                'img/6.png',
+                'img/7.png',
+                'img/1.png'
+            ];
+            $('.js-slideshow').slideshow({
+                msg: '234',
+                images: image
+            });
+            </script>
+        </div>
+    </div>
+    <!-- /container -->
+
+
+
+</body>
+
+</html>
