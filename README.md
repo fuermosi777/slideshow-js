@@ -39,3 +39,14 @@ $('.js-slideshow').slideshow({
 });
 </script>
 ```
+
+###Options
+```
+<script>
+$('.js-slideshow').slideshow({
+  images: image,
+  autoScoll: true, // Start auto scrolling. Set "false" to disable.
+  timeInterval: 5000, // Set time interval of auto scrolling.
+});
+</script>
+```
